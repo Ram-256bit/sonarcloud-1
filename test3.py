@@ -30,3 +30,10 @@ except KeyError as key_err:
     print(f"Key error occurred: {key_err}")
 except Exception as ex:
     print(f"An unexpected error occurred: {ex}")
+
+try:
+    a = 5
+    b = a / 0
+    print(b)
+except Exception as e:
+    print(e)
