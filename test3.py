@@ -34,4 +34,5 @@ except Exception as ex:
 
 a = 5
 b = a / 0
+c = b /0
 print(b)

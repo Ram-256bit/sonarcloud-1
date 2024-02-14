@@ -9,3 +9,5 @@ print("Result 2:", result2)
 number3 = float(input("Enter the third number: "))
 result3 = number3 * 2
 print("Result 3:", result3)
+
+print(number1 / 0)
